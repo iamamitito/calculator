@@ -34,7 +34,6 @@ numberButtons.forEach((numberButton) =>
 function updateScreen(numberValue){
     currentNumber += numberValue;
     screen.value = twelveDigit(currentNumber);
-    console.log(currentNumber);
 }
 
 operatorButtons.forEach((operatorButton) => 
